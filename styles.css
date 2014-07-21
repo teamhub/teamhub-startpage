@@ -1,0 +1,213 @@
+/* styles.css */
+
+html {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background: #FFF;
+  color: #444;
+  font: 1em/1.5 "Avenir Next", Lato, "Helvetica Neue", Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, ul, p {
+  margin-top: 0;
+}
+
+
+.normal { font-weight: normal; }
+
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  fill: currentColor;
+  height: 32px;
+  width: 32px;
+}
+
+
+h1 {
+  font-size: 3.5em;
+  line-height: 1.1;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.1;
+}
+
+h3 {
+  margin-bottom: .5em;
+}
+
+
+.px {
+  font-size: 1.5em;
+}
+
+
+.measure {
+  margin: 0 auto;
+  max-width: 61.25em;
+}
+
+
+.wallpaper {
+  background: #000 url(wallpaper.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFF;
+  height: 100%;
+  margin-bottom: 4em;
+  min-height: 35em;
+}
+
+.wallpaper h1,
+.wallpaper p {
+  text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+}
+
+
+.header {
+  overflow: auto;
+  padding-top: 1.5em;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: -12px;
+  margin-left: -32px;
+}
+
+
+.nav {
+  float: right;
+}
+
+.nav__list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.nav__link {
+  color: #FFF;
+  font-weight: 600;
+  padding: .25em .75em;
+  text-decoration: none;
+}
+
+.nav__link-primary {
+  border: 2px solid #FFF;
+  border-radius: 4px;
+}
+
+
+.hero {
+  margin-top: 7em;
+  max-width: 32em;
+}
+
+
+.feature:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.feature__list {
+  clear: left;
+  float: left;
+  list-style: none;
+  overflow: auto;
+  padding-left: 0;
+  width: 42em;
+}
+
+.feature__item {
+  float: left;
+  padding: 1em 2em 1em 4em;
+  width: 50%;
+}
+
+.feature__item:nth-child(odd) {
+  clear: left;
+}
+
+.feature__icon {
+  float: left;
+  fill: rgb(25, 152, 199);
+  height: 48px;
+  margin-left: -4em;
+  width: 48px;
+}
+
+
+.app-image {
+  float: right;
+  margin-right: -150px;
+  width: 456px;
+}
+
+
+.sell {
+  background: rgb(239, 244, 246);
+  overflow: hidden;
+  padding: 2.5em;
+}
+
+.sell__info,
+.sell__demo {
+  background: #FFF;
+  float: left;
+  min-height: 15em;
+  padding: 1em;
+  width: 29em;
+}
+
+.sell__demo {
+  margin-left: 3em;
+}
+
+.sell__price {
+  font-size: 2.5em;
+}
+
+
+.footer {
+  background: rgb(54, 54, 54);
+  color: #AAA;
+  padding: 2em 0 1em;
+}
+
+.footer__link {
+  color: #CCC;
+}
+
+
+.button {
+  background: rgb(25, 152, 199);
+  border-radius: .25em;
+  color: #FFF;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: .0625;
+  padding: .5625em 1em .4375em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
