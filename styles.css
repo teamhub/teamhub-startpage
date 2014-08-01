@@ -25,14 +25,6 @@ h1, h2, h3, ul, p {
 
 .normal { font-weight: normal; }
 
-[class^="icon-"],
-[class*=" icon-"] {
-  display: inline-block;
-  fill: currentColor;
-  height: 32px;
-  width: 32px;
-}
-
 
 h1 {
   font-size: 3.5em;
@@ -150,8 +142,9 @@ h3 {
 }
 
 .feature__icon {
-  float: left;
+  display: inline-block;
   fill: rgb(25, 152, 199);
+  float: left;
   height: 48px;
   margin-left: -4em;
   width: 48px;
