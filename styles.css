@@ -168,13 +168,17 @@ h3 {
 .sell__demo {
   background: #FFF;
   float: left;
-  min-height: 15em;
-  padding: 1em;
+  min-height: 17em;
+  padding: 3.125em 3.125em 2.125em;
   width: 29em;
 }
 
 .sell__demo {
   margin-left: 3em;
+}
+
+.sell__info h4 {
+  margin: -.5em 0;
 }
 
 .sell__price {
