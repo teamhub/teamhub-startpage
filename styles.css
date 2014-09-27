@@ -190,6 +190,10 @@ h3 {
 }
 
 @media only screen and (max-width: 640px) {
+  .feature__list {
+    width: auto;
+  }
+
   .feature__item {
     float: none;
     width: auto;
